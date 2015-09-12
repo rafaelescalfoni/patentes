@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="./bootstrap/css/bootstrap-theme.css" />
+
+		<!-- botanica theme -->
+		<link rel="stylesheet" href="./css/estilo.css" />
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="./bootstrap/js/bootstrap.min.js" ></script>
+
+
+		<script src="./jquery/jquery.js"></script>
+
+
+		<title>Patentes Brasileiras</title>
+	
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<h1 class="col-md-offset-5">Patentes INPI</h1>
+			</div>
+			<div class="row">
+				<form>
+					<input id="keyword"
+						class="col-xs-11 col-md-6 col-md-offset-3"
+						type="text" 
+						placeholder="Palavra-chave" />
+					<input 
+						class="btn-primary"
+						type="submit"
+						value="Pesquisar"/>
+				</form>
+			</div>
+			
+			<div class="container-fluid">
+				<br />
+				<p class="text-muted">
+					Encontrados:
+				</p>
+				<div id="resultado" class="well" >
+					<h3>Título da patente</h3>
+					<p>	
+						Descrição Lorem ipsum et adics ipsum et adics ipsum et adics ipsum 
+						et adics ipsum et adics
+					</p>
+					<p class="text-right">
+						<a class="text-muted" href="#" role="button">Detalhes...</a>
+					</p>
+				</div>
+				<div id="resultado" class="well" >
+					<h3>Título da patente</h3>
+					<p>	
+						Descrição Lorem ipsum et adics ipsum et adics ipsum et adics ipsum 
+						et adics ipsum et adics
+					</p>
+					<p class="text-right">
+						<a class="text-muted" href="#" role="button">Detalhes...</a>
+					</p>
+				</div>
+				<div id="resultado" class="well" >
+					<h3>Título da patente</h3>
+					<p>	
+						Descrição Lorem ipsum et adics ipsum et adics ipsum et adics ipsum 
+						et adics ipsum et adics
+					</p>
+					<p class="text-right">
+						<a class="text-muted" href="#" role="button">Detalhes...</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
